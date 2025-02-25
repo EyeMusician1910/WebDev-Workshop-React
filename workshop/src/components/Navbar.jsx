@@ -2,13 +2,13 @@
 const Navbar = () => {
     return (
       <>
-        <div className="flex justify-between px-20 items-center h-[10vh]">
-          <div className="text-[#5b4dff] text-[24px] font-bold">
-            Infinity Linkage
+        <div className="flex bg-[#00ffdd] justify-between px-20 items-center h-[10vh] left-0 top-0 w-full fixed">
+          <div className="text-[#001effbd] text-[24px] font-bold">
+            Meow Store
           </div>
   
           <div>
-            <ul className="flex space-x-12 text-[12px]">
+            <ul className="flex space-x-12 text-[12px] text-[#001effbd]">
               <li>Home</li>
               <li>About</li>
               <li>Services</li>
@@ -20,5 +20,4 @@ const Navbar = () => {
     );
   };
   
-  export default Navbar;
-  
+export default Navbar;
